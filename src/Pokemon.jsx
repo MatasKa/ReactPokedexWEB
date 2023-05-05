@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Typography, Link, CircularProgress, Button } from "@material-ui/core";
 import { toFirstCharUppercase } from "./constants";
 import axios from "axios";
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 const useStyles = makeStyles((theme) => ({
   textStyle: {
@@ -41,7 +42,9 @@ const Pokemon = (props) => {
         <Typography className={classes.textStyle} variant="h3">Pokemon Info</Typography>
         <Typography className={classes.textStyle} >
           {"Species: "}
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Link href={species.url}>{species.name} </Link>
+          </BrowserRouter>
         </Typography>
         <Typography className={classes.textStyle} >Height: {height} </Typography>
         <Typography className={classes.textStyle} >Weight: {weight} </Typography>
