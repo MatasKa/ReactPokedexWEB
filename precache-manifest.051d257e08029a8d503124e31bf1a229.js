@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b94e277b828b4317095b09831755f658",
+    "revision": "6a9c607e5af5ff306f6419c5adb8263f",
     "url": "/react-gh-pages/ReactPokedexWEB/index.html"
   },
   {
-    "revision": "e3b8d13d4e10d47e4eec",
+    "revision": "f50a1f833ca3163f345f",
     "url": "/react-gh-pages/ReactPokedexWEB/static/css/main.92c4fb02.chunk.css"
   },
   {
-    "revision": "ed7512cdf3e174b4300e",
-    "url": "/react-gh-pages/ReactPokedexWEB/static/js/2.3d75e165.chunk.js"
+    "revision": "649ba720563a815c74a1",
+    "url": "/react-gh-pages/ReactPokedexWEB/static/js/2.6b3eaca0.chunk.js"
   },
   {
     "revision": "e4f4d60ab36518f118e17022748fc78f",
-    "url": "/react-gh-pages/ReactPokedexWEB/static/js/2.3d75e165.chunk.js.LICENSE.txt"
+    "url": "/react-gh-pages/ReactPokedexWEB/static/js/2.6b3eaca0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3b8d13d4e10d47e4eec",
-    "url": "/react-gh-pages/ReactPokedexWEB/static/js/main.09b2315f.chunk.js"
+    "revision": "f50a1f833ca3163f345f",
+    "url": "/react-gh-pages/ReactPokedexWEB/static/js/main.186b9aad.chunk.js"
   },
   {
     "revision": "7d2ded91d88747f7688a",
